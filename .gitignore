@@ -1,0 +1,26 @@
+# Java / Processing build output
+*.class
+*.jar
+build/
+out/
+application.*/
+
+# Python test runner caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# Local credentials and generated test previews
+.env
+.env.*
+/preview.png
+/test-preview.png
